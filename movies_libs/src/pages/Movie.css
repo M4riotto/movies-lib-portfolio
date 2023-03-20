@@ -4,6 +4,9 @@
     flex-direction: column;
     max-width: 600px;
     margin: 2rem auto;
+    background-color: #222;
+    padding: 2rem;
+    border-radius: 10px;
 }
 
 .movie-page svg{
