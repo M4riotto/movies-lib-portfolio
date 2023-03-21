@@ -8,6 +8,7 @@ import {
 } from 'react-icons/bs'
 
 import MovieCard from '../components/MovieCard'
+import MovieDetails from '../components/LocationMovie'
 
 import './Movie.css'
 
@@ -43,7 +44,9 @@ const Movie = () => {
     <div className="movie-page">
       {movie && <>
         <MovieCard movie={movie} showLink={false}/>
-        <p className="tagline">{movie.tagline}</p>
+        <MovieDetails />
+        <hr /><br />
+        <p className="tagline">{movie.tagline}</p><br />
         <div className="info">
           <h3>
             <BsWallet2/> Orçamento:
