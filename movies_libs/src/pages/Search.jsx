@@ -1,5 +1,3 @@
-// 1hr https://www.youtube.com/watch?v=XqxUHVVO7-U
-
 import { useState, useEffect } from "react"
 import { useSearchParams } from "react-router-dom"
 import MovieCard from "../components/MovieCard"
