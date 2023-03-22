@@ -10,6 +10,7 @@ import {
 
 import MovieCard from '../components/MovieCard'
 import MovieDetails from '../components/LocationMovie'
+import Trailer from '../components/Trailer'
 
 import './Movie.css'
 
@@ -45,8 +46,15 @@ const Movie = () => {
     <div className="movie-page">
       {movie && <>
         <MovieCard movie={movie} showLink={false}/>
+        <div><Trailer /></div><br />
         <MovieDetails />
         <hr /><br />
+        <h2>Genero</h2>
+        {movie.genres.map((genero) => (
+              <p key={genero.name}>
+                {genero.name}
+              </p>
+            ))} <br />
         <p className="tagline">{movie.tagline}</p><br />
         <div className="info">
           <h3>
