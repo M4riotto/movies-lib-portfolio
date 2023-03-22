@@ -1,3 +1,4 @@
+import {Link} from 'react-router-dom'
 import { useState, useEffect } from "react"
 import { useParams } from "react-router-dom"
 import {
@@ -71,6 +72,7 @@ const Movie = () => {
           </h3>
           <p>{movie.overview}</p>
         </div>
+        <Link to={`/`}>Voltar</Link>
       </>
       }</div>
   )
