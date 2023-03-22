@@ -49,7 +49,7 @@ const Movie = () => {
         <div><Trailer /></div><br />
         <MovieDetails />
         <hr /><br />
-        <h2>Genero</h2>
+        <h2>Gênero:</h2>
         {movie.genres.map((genero) => (
           <p key={genero.name}>
             {genero.name}

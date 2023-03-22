@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { useParams } from 'react-router-dom';
-import {AiFillPlayCircle} from 'react-icons/ai'
+import { AiFillPlayCircle } from 'react-icons/ai'
 
 const apiKEY = import.meta.env.VITE_API_KEY
 
@@ -31,9 +31,6 @@ const Trailer = () => {
                 </li>
 
                 )}
-
-
-
             </ul>
         </div>
     );
@@ -41,7 +38,7 @@ const Trailer = () => {
 }
 
 const styles = {
-    ul:{
+    ul: {
         listStyle: "none"
     },
     a: {
