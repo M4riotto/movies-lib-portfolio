@@ -49,18 +49,6 @@ const Movie = () => {
         <p className="tagline">{movie.tagline}</p><br />
         <div className="info">
           <h3>
-            <BsWallet2/> Orçamento:
-          </h3>
-          <p>{formatCurrency(movie.budget)}</p>
-        </div>
-        <div className="info">
-          <h3>
-            <BsGraphUp/> Faturamento:
-          </h3>
-          <p>{formatCurrency(movie.revenue)}</p>
-        </div>
-        <div className="info">
-          <h3>
             <BsHourglassSplit/> Duração:
           </h3>
           <p>{movie.runtime}</p> Minutos
@@ -70,6 +58,18 @@ const Movie = () => {
             <BsFillFileEarmarkTextFill/> Descrição:
           </h3>
           <p>{movie.overview}</p>
+        </div>
+        <div className="info">
+          <h3>
+            <BsWallet2/> Orçamento:
+          </h3>
+          <p>{formatCurrency(movie.budget)}</p>
+        </div>
+        <div className="info">
+          <h3>
+            <BsGraphUp/> Faturamento:
+          </h3>
+          <p>{formatCurrency(movie.revenue)}</p>
         </div>
       </>
       }</div>
