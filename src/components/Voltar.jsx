@@ -9,7 +9,7 @@ const Voltar = () => {
   }
 
   return (
-      <a onClick={handleGoBack}>Voltar</a>
+      <a onClick={handleGoBack}><p>Voltar</p></a>
   );
 }
 

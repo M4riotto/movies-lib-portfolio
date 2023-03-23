@@ -67,6 +67,9 @@
     text-align: center;
     font-weight: bold;
 }
+.movie-page>a>p{
+    cursor: pointer;
+}
 
 @media screen and (max-width: 600px) {
     .movie-page .movie-card img {
