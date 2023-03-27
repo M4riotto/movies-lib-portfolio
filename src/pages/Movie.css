@@ -70,6 +70,12 @@
 .movie-page>a>p{
     cursor: pointer;
 }
+.movie-page>a:hover{
+    cursor: pointer;
+    
+    background-color: transparent;
+    color: #f7d354;
+}
 
 @media screen and (max-width: 600px) {
     .movie-page .movie-card img {
