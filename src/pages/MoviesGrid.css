@@ -25,7 +25,7 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    background-color: #111;
+    background-color: #555;
     padding: 1rem;
 }
 
@@ -71,6 +71,13 @@
     }
     .movies-container div{
         width: 45%;
+        padding: .3rem;
+        border-radius: 10px;
+    }
+    .movies-container{
+        justify-content: space-around;
+        padding: .5rem;
+        margin: 0 auto;
     }
 }
 
