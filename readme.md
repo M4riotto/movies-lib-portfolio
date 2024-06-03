@@ -30,9 +30,14 @@
 ##
 ### <div align="center">Integrantes</div>
 <div align="center">
+
+<a href="https://movie-library-port.netlify.app/">CLIQUE AQUI</a>
  
  <img src="https://undertakehigh.com.br/teste/wp-content/uploads/2024/05/card-vitor.png" width="450px" style="border-radius: 10px;"></img>
  
 </div>
+
+
+
 
 
